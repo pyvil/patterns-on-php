@@ -11,7 +11,7 @@ use Pattern\AbstractFactory\Unit;
  * Class AlienFootmen
  * @package Pattern\AbstractFactory\Unit\Footmen
  */
-class AlienFootmen implements Unit\Footman
+class AlienFootman implements Unit\Footman
 {
 
     /**
@@ -21,6 +21,6 @@ class AlienFootmen implements Unit\Footman
      */
     public function attack($unit)
     {
-        // TODO: Implement attack() method.
+        return $unit;
     }
 }
