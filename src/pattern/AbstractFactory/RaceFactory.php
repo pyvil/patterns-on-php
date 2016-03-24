@@ -14,7 +14,7 @@ interface RaceFactory
      *
      * @return mixed
      */
-    public function createFootmen();
+    public function createFootman();
 
     /**
      * Create Transport for current race

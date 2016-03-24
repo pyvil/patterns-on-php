@@ -3,13 +3,13 @@
  *
  */
 
-namespace Pattern\AbstractFactory\Unit\Footmen;
+namespace Pattern\AbstractFactory\Unit\Footman;
 
 use Pattern\AbstractFactory\Unit;
 
 /**
- * Class AlienFootmen
- * @package Pattern\AbstractFactory\Unit\Footmen
+ * Class AlienFootman
+ * @package Pattern\AbstractFactory\Unit\Footman
  */
 class AlienFootman implements Unit\Footman
 {

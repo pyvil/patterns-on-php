@@ -9,7 +9,7 @@ use Pattern\AbstractFactory\Unit;
 
 /**
  * Class AlienTransport
- * @package Pattern\AbstractFactory\Unit\Footmen
+ * @package Pattern\AbstractFactory\Unit\Footman
  */
 class AlienWeaponry implements Unit\Weaponry
 {
@@ -21,7 +21,7 @@ class AlienWeaponry implements Unit\Weaponry
      */
     public function attack($unit)
     {
-        // TODO: Implement attack() method.
+        return $unit;
     }
 
     /**
@@ -31,6 +31,6 @@ class AlienWeaponry implements Unit\Weaponry
      */
     public function setUnits($units)
     {
-        // TODO: Implement setUnits() method.
+        return $units;
     }
 }

@@ -6,7 +6,7 @@ namespace Pattern\AbstractFactory\Race;
 
 use Pattern\AbstractFactory;
 use Pattern\AbstractFactory\Unit;
-use Pattern\AbstractFactory\Unit\Footmen;
+use Pattern\AbstractFactory\Unit\Footman;
 use Pattern\AbstractFactory\Unit\Weaponry;
 use Pattern\AbstractFactory\Unit\Transport;
 
@@ -23,9 +23,9 @@ class ZombieFactory implements AbstractFactory\RaceFactory
      *
      * @return mixed
      */
-    public function createFootmen()
+    public function createFootman()
     {
-        return new Footmen\ZombieFootmen();
+        return new Footman\ZombieFootman();
     }
 
     /**
