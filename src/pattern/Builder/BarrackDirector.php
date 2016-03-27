@@ -2,7 +2,7 @@
 namespace Pattern\Builder;
 
 /**
- * Class BarrackDirector
+ * Director as a part of builder pattern.
  *
  * @package Pattern\Builder
  */
