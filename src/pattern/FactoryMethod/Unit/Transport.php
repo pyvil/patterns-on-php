@@ -4,11 +4,11 @@ namespace Pattern\FactoryMethod\Unit;
 use Pattern\FactoryMethod;
 
 /**
- * Class Footman
+ * Class Transport
  *
  * @package Pattern\FactoryMethod\Unit
  */
-class Footman implements FactoryMethod\UnitInterface
+class Transport implements FactoryMethod\UnitInterface
 {
 
     /**
