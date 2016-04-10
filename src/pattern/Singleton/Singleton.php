@@ -17,9 +17,8 @@ class Singleton
     /**
      * Private constructor
      *
-     * @return void
      */
-    private function __constructor()
+    private function __construct()
     {
 
     }
